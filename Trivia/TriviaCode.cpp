@@ -57,13 +57,35 @@ int main() {
 	std::getline(std::cin, answer3);
 	if (answer3 == "Christian McCaffrey" || answer3 == "CMC" || answer3 == "Christian Mccaffrey" || answer3 == "christian mccaffrey") {
 		score += 1;
-		std::cout << "You answered " << answer2 << ".\n";
+		std::cout << "You answered " << answer3 << ".\n";
 		std::cout << "CMC is correct!\n";
 	}
 	else {
 		std::cout << "Incorrect. The correct answer is Christian McCaffrey.\n";
 	}
 
-	std::cout << "Your total score is: " << score << " out of 3.\n\n";
+	std::cout << "This former Seattle Mariner played right field, had a rocket for an arm, and had seasons with 30+ stolen bases.\n";
+	std::getline(std::cin, answer4);
+	if (answer4 == "Ichiro" || answer4 == "Ichiro Suzuki" || answer4 == "ichiro" || answer4 == "ichiro suzuki") {
+		score += 1;
+		std::cout << "You answered " << answer4 << ".\n";
+		std::cout << "Ichiro is correct!\n";
+	}
+	else {
+		std::cout << "Incorrect. The correct answer is Ichiro Suzuki.\n";
+	}
+
+	std::cout << "This person is a well known former NFL center who played 13 seasons for the Eagles and won a Super Bowl with them. He's known for his electric personality and dominance on the offensive line.\n";
+	std::getline(std::cin, answer5);
+	if (answer5 == "Jason Kelce" || answer5 == "jason kelce" || answer5 == "kelce") {
+		score += 1;
+		std::cout << "You answered " << answer5 << ".\n";
+		std::cout << "Jason Kelce is correct!\n";
+	}
+	else {
+		std::cout << "Incorrect. The correct answer is Jason Kelce.\n";
+	}
+
+	std::cout << "Your total score is: " << score << " out of 5.\n\n";
 
 }
