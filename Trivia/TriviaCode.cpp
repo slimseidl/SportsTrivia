@@ -31,7 +31,7 @@ int main() {
 	std::string answer24;
 	std::string answer25;
 
-	std::cout << "This former NFL wide receiver was born in Rand, WV, played college football at Marshall, was drafted number 21 overall in the 1998 NFL draft by the Vikings, and also played for the Oakland Raiders, New England Patriots, Tennessee Titans, and San Fransico 49ers.\n";
+	std::cout << "This former NFL wide receiver was born in Rand, WV, played college football at Marshall, was drafted number 21 overall in the 1998 NFL draft by the Vikings, and also played for the Oakland Raiders, New England Patriots, Tennessee Titans, and San Francisco 49ers.\n";
 	std::getline(std::cin, answer1);
 	if (answer1 == "Randy Moss" || answer1 == "randy moss" || answer1 == "Randy" || answer1 == "Moss") {
 		score += 1;
@@ -41,5 +41,29 @@ int main() {
 	else {
 		std::cout << "Incorrect. The correct answer was Randy Moss.\n";
 	}
+
+	std::cout << "This former Michigan Wolverine was overlooked in the 1999 NFL draft and was not selected until the 6th round. He went on to win 7 Super Bowls in his 21 season tenure.\n";
+	std::getline(std::cin, answer2);
+	if (answer2 == "Tom Brady" || answer2 == "Brady" || answer2 == "The Goat" || answer2 == "TB12") {
+		score += 1;
+		std::cout << "You answered " << answer2 << ".\n";
+		std::cout << "Tom Brady is correct!\n";
+	}
+	else {
+		std::cout << "Incorrect. The correct answer is Tom Brady.\n";
+	}
+
+	std::cout << "This NFL player, born in Castle Rock, CO played college football at Stanford and was drafted by the Carolina Panthers in the 2017 NFL Draft.\n";
+	std::getline(std::cin, answer3);
+	if (answer3 == "Christian McCaffrey" || answer3 == "CMC" || answer3 == "Christian Mccaffrey" || answer3 == "christian mccaffrey") {
+		score += 1;
+		std::cout << "You answered " << answer2 << ".\n";
+		std::cout << "CMC is correct!\n";
+	}
+	else {
+		std::cout << "Incorrect. The correct answer is Christian McCaffrey.\n";
+	}
+
+	std::cout << "Your total score is: " << score << " out of 3.\n\n";
 
 }
